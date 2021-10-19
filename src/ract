@@ -1,0 +1,13 @@
+class MyWebsite extends React.Component {
+    constructor(props){
+        super(props);
+    }
+    render(){
+        return(
+            <div>
+                <hi>This is my First React</hi>
+            </div>
+        )
+    }
+}
+

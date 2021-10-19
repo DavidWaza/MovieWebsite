@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>budget app</title>
+	<link rel="stylesheet" type="text/css" href="budget.css">
+</head>
+<body>
+	<div class="budget-container">
+		<div class="app-title">Waza Budget</div>
+		<div class="budget-header">
+			<div class="balance">
+				<div class="title">Balance</div> <div class="value"></div>
+			</div>
+			<div class="account">
+				<div class="income">
+					<div class="title">Income</div> <div class="value"></div>
+				</div>
+				<div class="chart"></div>
+				<div class="outcome">
+					<div class="title">Outcome</div>
+				</div> <div class="outcome-total  "></div>
+			</div>
+		</div>
+	</div>
+	<div class="budget-dashboard">
+		<div class="dash-title">Dashboard</div>
+		<div class="toggle">
+			<div class="tab1">Expenses</div>
+			<div class="tab2 active ">Income</div>
+			<div class="tab3">All</div>
+		</div>
+		<div class="hide" id="expense"></div>
+		<div id="income">
+			<ul class="list">
+				<li id="0" class="income">
+					<div class="entry">salary: # 0000</div>
+					<div class="edit"></div>
+					<div class="delete"></div>
+				</li>
+			</ul>
+			<div class="input">
+				<input type="text" name="title" id="icome-title-input" placeholder="title">
+				<input type="number" name="amount" id="income-amount-input" placeholder="# 0">
+				<div class="add-income"><img src="../icon/plus-icon.png"></div>
+			</div>
+		</div>
+		<div class="hide" id="all"></div>
+	</div>
+</body>
+</html>
